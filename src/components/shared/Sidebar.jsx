@@ -4,6 +4,7 @@ import { DASHBOARD_SIDEBAR_BOTTOM_LINKS, DASHBOARD_SIDEBAR_LINKS } from "../../l
 import { Link, useLocation } from "react-router-dom";
 import { HiOutlineLogout } from "react-icons/hi";
 
+/*Sidebar component */
 export const Sidebar = () => {
   return (
     <div className="flex flex-col p-3 text-white bg-neutral-900 w-60">
